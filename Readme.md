@@ -4,7 +4,8 @@ ANZDemo is a behavior driven development (BDD) approach to write automation test
 It enables you to write and execute automated acceptance tests.
 Automate your test cases with minimal coding.
 
-**Download a Framework:** 
+**Download Framework:** 
+
 Github - https://github.com/vinay5546/ANZDemo
 
 
@@ -36,4 +37,5 @@ under Preferences/ Security & privacy.
 Go to your project directory from terminal and hit following commands
 
 mvn test (defualt will run on local chrome browser)
+
 mvn test -Dcucumber.options="classpath:features/LoanCalculator.feature" to run specific feature.
