@@ -19,20 +19,21 @@ src/test/java/com.mypackage - this package contains cucumber runner (TestRunner.
 
 **Writing a test:**
 The cucumber features goes in the features library and should have the ".feature" extension.
-You can start out by looking at features/my_first.feature.
+You can start out by looking at features/LoanCalculator.feature.
 
 #### **Running test:**
 
-**Setup chrome driver:** This project currently supports chrome browser only
+**Setup chrome driver:** 
+This project currently supports chrome browser only
 You need to download the chrome driver from the below site:
 [https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
+
 Make sure to download the correct version of the chrome driver.
+
 For MAC: Paste the chrome driver to usr/local/bin folder and provide the necessary permission 
 under Preferences/ Security & privacy.
 
 Go to your project directory from terminal and hit following commands
 
 mvn test (defualt will run on local chrome browser)
-mvn test -Dcucumber.options="classpath:features/my_first.feature" to run specific feature.
-mvn test -Dcucumber.options="–-plugin html:target/result-html" to generate a HTML report.
-mvn test -Dcucumber.options="–-plugin json:target/result-json" to generate a JSON report.
+mvn test -Dcucumber.options="classpath:features/LoanCalculator.feature" to run specific feature.
