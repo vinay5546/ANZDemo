@@ -39,3 +39,8 @@ Go to your project directory from terminal and hit following commands
 mvn test (defualt will run on local chrome browser)
 
 mvn test -Dcucumber.options="classpath:features/LoanCalculator.feature" to run specific feature.
+
+Or
+
+Setup the framework in your local
+Locate 'TestRunnner.java' under 'src/test/java/com.mypackage' and run.
